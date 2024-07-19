@@ -1,0 +1,1 @@
+const myCollection = [{ 'Nom': '', 'Type': '', 'Ambiance': '', 'Nb joueurs': '', 'Age': '', 'Img': '' }]
