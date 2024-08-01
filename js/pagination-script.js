@@ -1,5 +1,4 @@
-// --- RANDOM GAME ON HOMEPAGE --- 
-
+// --- CONTENU API --- 
 const games = [
     {
       "ID": 3809,
@@ -2709,21 +2708,128 @@ const games = [
       "Cover" : "https://www.myludo.fr/img/jeux/1688478083/300/ai/8944.png"
     }
    ]
-  
-function getRandomGame() {
-    let randomIndex = Math.floor(Math.random() * games.length);
-  
-    return games[randomIndex];
-  }
-  
-  // Remplace le contenu de l'attribu SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
-  function displayRandomHome() {
-    const randomGame = getRandomGame()
-    const randomCover = document.getElementById('randomcover');
-    const randomTitle = document.querySelector('.randomname');
+
+// --- PAGINATION --- 
+function renderData(page = 1) {
+
+    const container = document.querySelector('.container');
+    container.innerHTML = '';
+
+    if (!games) {
+        return;
+    }
+
+    const itemsPerPage = 6;
+    let numberPages = Math.ceil(games.length/itemsPerPage);
+
+    const parentPagination = document.querySelector('.pages');
+    parentPagination.innerHTML = '';
+
+    for (let i = 1; i <= numberPages; i++) {
+    const pageButton = document.createElement('button');
+    pageButton.classList.add('pagination');
+  pageButton.id = i
+        pageButton.innerHTML = i;
+        pageButton.addEventListener('click', () => changePage(i));
+
+        parentPagination.appendChild(pageButton);
+
+            }
+
+    let pageIndex = page - 1;
+
+    for (let i = (pageIndex*itemsPerPage); i < (pageIndex*itemsPerPage)+itemsPerPage; i++) {
     
-    randomCover.src = randomGame.Cover
-    randomTitle.innerText = randomGame.Titre
-  }
-  
-  displayRandomHome()
+    if (!games[i]) { break };
+
+    const list = document.createElement('div');
+        list.classList.add('list');
+    
+    const title = document.createElement('h3');
+        title.classList.add('title');
+        title.innerText = games[i].Titre;
+
+    const cover = document.createElement('img');
+    cover.classList.add('cover');
+    cover.src = games[i].Cover;
+
+    const category = document.createElement('p');
+        category.classList.add('cat');
+        category.innerHTML = `<b>Catégorie</b> : ${games[i].Categories.replace(",", ", ")}`;
+
+    const nbPlayer = document.createElement('p');
+        nbPlayer.classList.add('player');
+        nbPlayer.innerHTML = `<b>Joueur.euses</b> : ${typeof games[i].Joueurs === 'string' ? games[i].Joueurs.replace(" — ", " à ") : games[i].Joueurs}`;
+
+    const editor = document.createElement('p');
+        editor.classList.add('editor');
+        editor.innerHTML = `<b>Editeur</b> : ${games[i].Editeurs}`;
+
+    const age = document.createElement('p');
+        age.classList.add('age');
+        age.innerHTML = `<b>Age</b> : ${games[i].Ages}`;
+
+    const duration = document.createElement('p');
+        duration.classList.add('duration')
+        duration.innerHTML = `<b>Durée moyenne</b> : ${typeof games[i].Duree === 'string' ? games[i].Duree.replace(" — ", " à ") + ' min' : games[i].Duree + ' min'}`;
+
+    const lang = document.createElement('p');
+        lang.classList.add('lang');
+        lang.innerHTML = `<b>Langue</b> : ${games[i].Langues}`;
+
+    list.appendChild(cover)
+    list.appendChild(title);
+    list.appendChild(category);
+    list.appendChild(nbPlayer);
+    list.appendChild(age);
+    list.appendChild(duration);
+    list.appendChild(editor);
+    list.appendChild(lang);
+    
+    container.appendChild(list);
+}
+
+// let activeButton = document.getElementsByClassName('.pagination')
+
+// activeButton.forEach(button => {
+//     button.addEventListener('click', () => {
+//         button.classList.add('active')
+//     })
+// })
+
+
+}
+
+function changePage(page) {
+    renderData(page);
+    activeBtn() 
+    history.pushState({ page: page}, null, `?page=${page}`);
+
+}
+
+
+let queryString = window.location.search;
+let urlParams = new URLSearchParams(queryString)
+let pageVisible = parseInt(urlParams.get('page')) || 1;
+
+renderData()
+
+// --- RANDOM NAME HOME --- 
+
+// function getRandomImg() {
+//   let randomCover = games[Math.floor(Math.random() * games.length)].Cover;
+
+//     return randomCover
+// }
+
+// // Remplace le contenu de l'attribu SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
+// function displayRandomCover() {
+//     document.getElementById('randomcover').src = getRandomImg()
+//     document.querySelector('.randomname').innerHTML = games[getRandomImg()].Titre
+
+// }
+
+// displayRandomCover()
+
+
+

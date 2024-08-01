@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background-color: bisque;
+    background-color: white;
     background-size: cover;
 }
 
@@ -242,8 +242,17 @@ border: none;
 
 }
 
+.active {
+    background-color: pink;
+}
+
 .title {
     text-transform: uppercase;
+}
+
+.cover {
+    max-width: 300px;
+    max-height: 300px;
 }
 
 
