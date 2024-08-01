@@ -87,6 +87,8 @@ a:hover {
 
 .links a.active {
     color: darkred;
+    background-color: white;
+    padding: 0.5rem;
 }
 
 .burger-menu .links a.active {
@@ -193,6 +195,57 @@ Si besoin, definir une width max
     cursor: pointer;
     text-transform: uppercase;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 20px;
+    border: 1px solid pink;
+
+}
+
+.list {
+    border: 1px solid brown;
+
+}
+
+.pages { 
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3rem;
+
+}
+
+.pagination {
+padding: 1rem 2rem;
+border-radius: 1rem;
+border: none;
+}
+
+.pagination:hover {
+    background-color:darkred;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination.active {
+    background-color: pink;
+
+}
+
+.title {
+    text-transform: uppercase;
+}
+
 
 /* ----- RESPONSIVE ----- */
 

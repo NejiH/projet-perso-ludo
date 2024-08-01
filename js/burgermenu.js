@@ -8,3 +8,4 @@ burgerMenuButton.onclick = function () {
     const isOpen = burgerMenu.classList.contains('open')
     burgerMenuButtoniCon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
 }
+

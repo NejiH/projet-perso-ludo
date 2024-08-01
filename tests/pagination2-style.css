@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 3em;
+    margin-right: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 20px;
+    border: 1px solid pink;
+
+}
+
+.list {
+    border: 1px solid brown;
+
+}
+
+.pages { 
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 2rem;
+
+}
