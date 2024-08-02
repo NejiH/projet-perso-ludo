@@ -2802,7 +2802,6 @@ function renderData(page = 1) {
 
 function changePage(page) {
     renderData(page);
-    activeBtn() 
     history.pushState({ page: page}, null, `?page=${page}`);
 
 }
