@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background-color: white;
+    background-color: #F5F5F5;
     background-size: cover;
 }
 
@@ -89,6 +89,7 @@ a:hover {
     color: darkred;
     background-color: white;
     padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .burger-menu .links a.active {
@@ -113,7 +114,7 @@ a:hover {
 }
 
 .burger-menu.open {
-    height: 190px;
+    height: 200px;
 }
 
 .divider {
@@ -149,6 +150,14 @@ a:hover {
 
 /* --- Random Image --- */
 
+.randomgame {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 60%;
+    transform: translate(30%);
+    margin-top: 2rem;
+}
+
 .randomname {
     display: flex;
     justify-content: center;
@@ -162,11 +171,13 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 450px;
+    box-sizing: border-box;
 
 }
 
 .randomimage>img {
-    width: 50%;
+    width: 100%;
+    max-height: 90%;
 }
 
 /* TODO: tester avec une image plus grande pour verifier si ca fonctionne toujours.
@@ -180,10 +191,11 @@ Si besoin, definir une width max
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .randombutton {
-    margin-top: 20px;
+    margin-bottom: 1rem;
     background-color: transparent;
     color: black;
     border: 1px solid black;
@@ -201,7 +213,7 @@ Si besoin, definir une width max
     padding: 0;
 }
 
-.container {
+/* .container {
     margin-top: 3em;
     margin-left: 3em;
     margin-right: 3em;
@@ -215,9 +227,9 @@ Si besoin, definir une width max
 .list {
     border: 1px solid brown;
 
-}
+} */
 
-.pages { 
+.pages {
     display: flex;
     justify-content: center;
     gap: 2%;
@@ -226,13 +238,13 @@ Si besoin, definir une width max
 }
 
 .pagination {
-padding: 1rem 2rem;
-border-radius: 1rem;
-border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
 }
 
 .pagination:hover {
-    background-color:darkred;
+    background-color: darkred;
     color: white;
     cursor: pointer;
 }
@@ -242,12 +254,13 @@ border: none;
 
 }
 
-.active {
+/* .active {
     background-color: pink;
-}
+} */
 
 .title {
     text-transform: uppercase;
+    color: brown;
 }
 
 .cover {

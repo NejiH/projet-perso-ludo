@@ -14,11 +14,11 @@
 }
 
 .list {
-    border: 1px solid brown;
+    border: 1px solid blue;
 
 }
 
-.pages { 
+.pages {
     display: flex;
     justify-content: center;
     gap: 2%;
