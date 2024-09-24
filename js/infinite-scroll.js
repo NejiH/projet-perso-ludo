@@ -3389,12 +3389,15 @@ const bottomPageElem = document.querySelector(".arrow-down");
 let actualLimit;
 let currentUrl = window.location.pathname; // récupère l'URL de la page actuelle
 let splittedUrl = currentUrl.split('/').pop(); // Formate le résultat obtenu pour matcher avec la condition 'if' 
+   console.log(splittedUrl)
+
 
 if (splittedUrl == 'collection-scroll.html') {
   actualLimit = collection.length; 
   } else { 
   actualLimit = whishlist.length;
   }
+
 
 const cardLimit = actualLimit; // Nombre de jeux basé sur le nombre d'index dans les tableaux d'objets 'collection' et 'whishlist' 
 const cardIncrease = 10 // Nombre d'éléments chargés à chaque changement de page
