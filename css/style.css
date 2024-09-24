@@ -165,6 +165,7 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
+    color: brown;
 }
 
 .randomimage {
@@ -180,10 +181,6 @@ a:hover {
     width: 100%;
     max-height: 90%;
 }
-
-/* TODO: tester avec une image plus grande pour verifier si ca fonctionne toujours.
-Si besoin, definir une width max
-*/
 
 /* ----- BUTTON ----- */
 
@@ -214,21 +211,7 @@ Si besoin, definir une width max
     padding: 0;
 }
 
-/* .container {
-    margin-top: 3em;
-    margin-left: 3em;
-    margin-right: 3em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px 20px;
-    border: 1px solid pink;
-
-}
-
-.list {
-    border: 1px solid brown;
-
-} */
+/* PAGINATION - COLLECTION PAGE */
 
 .pages {
     display: flex;
@@ -253,20 +236,6 @@ Si besoin, definir une width max
 .pagination.active {
     background-color: pink;
 
-}
-
-/* .active {
-    background-color: pink;
-} */
-
-.title {
-    text-transform: uppercase;
-    color: brown;
-}
-
-.cover {
-    max-width: 300px;
-    max-height: 300px;
 }
 
 

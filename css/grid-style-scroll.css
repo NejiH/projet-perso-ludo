@@ -36,9 +36,7 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     padding-bottom: 1rem;
     border-radius: 10px;
     height: 12rem;
-    min-width: 100%;
-        
-        
+    min-width: 100%;        
 }
 
 .gamecover {
@@ -55,13 +53,21 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     max-height: 6rem;
 }
 
+.title {
+    text-transform: uppercase;
+    color: brown;
+    padding-bottom: 0.4rem;
+}
+
 .gamedesc {
     margin-left: 0.2rem;
     width: 65%;
     padding-left: 1rem;
     padding-right: 0.5rem;
     box-sizing: border-box;
-    font-size: small;
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 1.1rem;
 }
 
 .card:hover {

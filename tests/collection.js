@@ -593,7 +593,30 @@ const collection = [
     "Referent": "",
     "Derniere-partie": "",
     "Cover": "https://www.myludo.fr/img/jeux/1682539151/300/bc/28994.png"
-  },
+    },
+   {
+   "ID": 59045,
+   "Titre": "District Noir",
+   "Sous-titre": "",
+   "Edition": 2022,
+   "Type": "basegame",
+   "EAN": 3770026418000,
+   "Prix": "17",
+   "Joueurs": "Duo",
+   "Duree": "15",
+   "Ages": "10+",
+   "Langues": "français",
+   "Univers": "",
+   "Gammes": "District Noir",
+   "Categories": "Jeu de Cartes",
+   "Themes": "Années 50,Polar,Prohibition",
+   "Mecanismes": "Bluff,Collection,Dans Ta Face,Duo,Majorité,Prise de risque",
+   "Editeurs": "Spiral Editions",
+   "Auteurs": "Nao Shimamura,Nobutake Dogen",
+   "Illustrateurs": "Vincent Roché",
+   "Envie": 5,
+   "Cover": "https://www.myludo.fr/img/jeux/1721376017/jpg/ch/59045.jpg"
+ },
   {
     "ID": 259,
     "Titre": "Docteur Pilule",
@@ -1748,7 +1771,7 @@ const collection = [
     "Referent": "",
     "Derniere-partie": "",
     "Cover": "https://www.myludo.fr/img/jeux/1622965999/300/ak/10258.png"
-  },
+    },
   {
     "ID": 561,
     "Titre": "Secret Hitler",

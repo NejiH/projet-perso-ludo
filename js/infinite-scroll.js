@@ -595,6 +595,29 @@ const collection = [
     "Derniere-partie": "",
     "Cover": "https://www.myludo.fr/img/jeux/1682539151/300/bc/28994.png"
   },
+   {
+   "ID": 59045,
+   "Titre": "District Noir",
+   "Sous-titre": "",
+   "Edition": 2022,
+   "Type": "basegame",
+   "EAN": 3770026418000,
+   "Prix": "17",
+   "Joueurs": "Duo",
+   "Duree": "15",
+   "Ages": "10+",
+   "Langues": "français",
+   "Univers": "",
+   "Gammes": "District Noir",
+   "Categories": "Jeu de Cartes",
+   "Themes": "Années 50,Polar,Prohibition",
+   "Mecanismes": "Bluff,Collection,Dans Ta Face,Duo,Majorité,Prise de risque",
+   "Editeurs": "Spiral Editions",
+   "Auteurs": "Nao Shimamura,Nobutake Dogen",
+   "Illustrateurs": "Vincent Roché",
+   "Date-achat": "2024-07-02",
+   "Cover": "https://www.myludo.fr/img/jeux/1721376017/jpg/ch/59045.jpg"
+ },
   {
     "ID": 259,
     "Titre": "Docteur Pilule",
@@ -3445,11 +3468,11 @@ function gamesDetails(i) {
 
     const nbPlayer = document.createElement('p');
     nbPlayer.classList.add('player');
-    nbPlayer.innerHTML = `<b>Joueur.euses</b> : ${typeof games[i].Joueurs === 'string' ? games[i].Joueurs.replace(" — ", " à ") : games[i].Joueurs}`;
+    nbPlayer.innerHTML = `<b>Joueur.euses</b> : ${typeof games[i].Joueurs === 'string' ? games[i].Joueurs.replace(" — ", " à ") : games[i].Joueurs}`; // utilisation du if pour savoir si la valeur dans le contenu est une string ou un number
 
     const editor = document.createElement('p');
     editor.classList.add('editor');
-    editor.innerHTML = `<b>Editeur</b> : ${games[i].Editeurs.split(',')[0]}`;
+    editor.innerHTML = `<b>Editeur</b> : ${games[i].Editeurs.split(',')[0]}`; // utilisation du split pour limiter le nombre de valeurs à afficher
 
     const age = document.createElement('p');
     age.classList.add('age');
@@ -3461,7 +3484,7 @@ function gamesDetails(i) {
 
     const lang = document.createElement('p');
     lang.classList.add('lang');
-  lang.innerHTML = `<b>Langue</b> : ${games[i].Langues.split(',')[0]}`;
+  lang.innerHTML = `<b>Langue</b> : ${games[i].Langues.split(',')[0]}`; // utilisation du split pour limiter le nombre de valeurs à afficher
 
     list.appendChild(title);
     list.appendChild(category);
