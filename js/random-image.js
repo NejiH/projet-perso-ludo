@@ -1,5 +1,5 @@
 // --- RANDOM GAME ON HOMEPAGE --- 
-
+// Base de données
 const games = [
   {
     "ID": 3809,
@@ -2710,6 +2710,7 @@ const games = [
   }
 ]
 
+// Retourne un numero random et va chercher le jeu correspondant dans le tableau 'games'
 function getRandomGame() {
   let randomIndex = Math.floor(Math.random() * games.length);
 
