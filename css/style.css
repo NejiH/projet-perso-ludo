@@ -99,6 +99,7 @@ a:hover {
 /* ---- BURGER MENU -----*/
 
 .burger-menu {
+    z-index: 10;
     display: none;
     height: 0;
     position: absolute;
@@ -271,7 +272,7 @@ Si besoin, definir une width max
 
 /* ----- RESPONSIVE ----- */
 
-@media (max-width: 780px) {
+@media screen and (width <=780px) {
     header {
         background: rgba(0, 0, 0, 0.250);
     }
@@ -289,14 +290,20 @@ Si besoin, definir une width max
         display: block;
 
     }
+
 }
 
 
 
-@media (max-width: 500px) {
+@media (width <=500px) {
     .burger-menu {
         left: 2rem;
         width: unset;
 
     }
+
+    .randomname {
+        font-size: 1rem;
+    }
+
 }

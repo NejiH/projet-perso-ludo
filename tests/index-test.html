@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/tests/grid-style-test.css">
+
     <title>Pagination</title>
 </head>
 <body>
-    <div id="wrapper">
-        <div id="nav"></div>
-        <div id="content"></div>
-    </div>
-    <div class="pages"></div>
-  
-    <a href="index.html?page=1">page 1</a>
-    <a href="index.html?page=2">page 2</a>
+    <div class="main-container">
+<div id="card-container">
+</div>
+<div id="loader">
+  <div class="skeleton-card"></div>
+  <div class="skeleton-card"></div>
+  <div class="skeleton-card"></div>
+</div>
+<div class="card-actions">
+  <span>Showing 
+    <span id="card-count"></span> of 
+    <span id="card-total"></span> cards      
+  </span>
+</div>
+</div>
     
-    <script src="/tests/pagination.js"></script>
+    <script src="/tests/infinite-scroll.js"></script>
 </body>
 </html>

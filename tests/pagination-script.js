@@ -1,4 +1,5 @@
-[
+// --- CONTENU API --- 
+const games = [
   {
     "ID": 3809,
     "Titre": "6 qui prend !",
@@ -13,7 +14,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "6 qui prend",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Abstrait,Animaux,Vache",
     "Mecanismes": "Bluff,Choix simultanés,Guessing",
     "Editeurs": "Amigo Spiele,Gigamic",
@@ -30,7 +31,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1680439738/300/ad/3809.png"
   },
   {
     "ID": 1005,
@@ -46,7 +47,7 @@
     "Langues": "français",
     "Univers": "7 Wonders",
     "Gammes": "7 Wonders Duel",
-    "Catégories": "Jeu de Cartes,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de plateau",
     "Themes": "Antiquité,Civilisation",
     "Mecanismes": "Affrontement Direct,Blocage,Construction,Course,Draft,Duo,Gestion de ressources,Majorité,Prise de risque",
     "Editeurs": "Repos Production",
@@ -63,7 +64,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1721206192/jpg/ab/1005.jpg"
 
   },
   {
@@ -80,7 +81,7 @@
     "Langues": "français",
     "Univers": "7 Wonders",
     "Gammes": "7 Wonders Duel",
-    "Catégories": "Jeu de Cartes,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de plateau",
     "Themes": "Antiquité,Civilisation,Politique",
     "Mecanismes": "Affrontement Direct,Blocage,Construction,Course,Draft,Duo,Gestion de ressources,Majorité,Prise de risque",
     "Editeurs": "Repos Production",
@@ -97,7 +98,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1706716389/jpg/bo/40856.jpg"
   },
   {
     "ID": 1616,
@@ -113,7 +114,7 @@
     "Langues": "français",
     "Univers": "Abyss",
     "Gammes": "Abyss",
-    "Catégories": "Jeu de Cartes,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de plateau",
     "Themes": "Fantastique,Maritime,Mythologie,Océan,Science-fiction",
     "Mecanismes": "Collection,Combinaison,Enchères,Gestion de main,Pioche,Pouvoir,Stop ou encore",
     "Editeurs": "Bombyx",
@@ -130,7 +131,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1659803682/300/ab/1616.png"
   },
   {
     "ID": 23357,
@@ -146,7 +147,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Aeon's End",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Médiéval Fantastique,Monstres",
     "Mecanismes": "Coopération,Deck building,Gestion de main,Pouvoir",
     "Editeurs": "Matagot",
@@ -163,7 +164,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1720636723/jpg/ax/23357.jpg"
   },
   {
     "ID": 57209,
@@ -179,7 +180,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Alice is Missing",
-    "Catégories": "Jeu De Rôle",
+    "Categories": "Jeu De Rôle",
     "Themes": "Enfant,Enquêtes & Mystères",
     "Mecanismes": "Communication Restreinte,Coopération,Narration,Rôle,Scénario",
     "Editeurs": "Origames",
@@ -196,7 +197,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1721374810/jpg/cf/57209.jpg"
   },
   {
     "ID": 4947,
@@ -212,7 +213,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Bang!",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Far West",
     "Mecanismes": "Affrontement Direct,Combinaison,Équipe,Gestion de main,Rôle secret",
     "Editeurs": "Dv Giochi",
@@ -229,7 +230,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1709818721/jpg/ae/4947.jpg"
   },
   {
     "ID": 5169,
@@ -245,7 +246,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Boggle",
-    "Catégories": "Jeu de lettres",
+    "Categories": "Jeu de lettres",
     "Themes": "Abstrait,Lettres",
     "Mecanismes": "Logique",
     "Editeurs": "Capiépa",
@@ -262,7 +263,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1501794861/300/af/5169.png"
   },
   {
     "ID": 16613,
@@ -278,7 +279,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Bohnanza",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Commerce,Fruits & légumes",
     "Mecanismes": "Collection,Commerce,Échange & Troc,Gestion de main",
     "Editeurs": "Gigamic",
@@ -295,7 +296,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1655106402/300/aq/16613.png"
   },
   {
     "ID": 35740,
@@ -311,7 +312,7 @@
     "Langues": "français",
     "Univers": "Carcassonne",
     "Gammes": "Carcassonne",
-    "Catégories": "Jeu de tuiles",
+    "Categories": "Jeu de tuiles",
     "Themes": "Médiéval,Ville",
     "Mecanismes": "Blocage,Connexion,Majorité,Placement,Pose de tuiles",
     "Editeurs": "Hans Im Glück,Z-Man Games",
@@ -328,7 +329,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1686407860/jpg/bj/35740.jpg"
   },
   {
     "ID": 19557,
@@ -344,7 +345,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Citadelles",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Médiéval Fantastique",
     "Mecanismes": "Bluff,Choix multiples,Choix simultanés,Construction,Draft,Gestion de main,Pouvoir",
     "Editeurs": "Edge Entertainment",
@@ -361,7 +362,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1699855771/300/at/19557.png"
   },
   {
     "ID": 3648,
@@ -377,7 +378,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "City of Horror",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Horreur,Survie,Zombies",
     "Mecanismes": "Dans Ta Face,Diplomatie,Négociation,Trahison",
     "Editeurs": "Repos Production",
@@ -394,7 +395,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1668717759/300/ad/3648.png"
   },
   {
     "ID": 23635,
@@ -410,7 +411,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Coimbra",
-    "Catégories": "Jeu de dés",
+    "Categories": "Jeu de dés",
     "Themes": "Portugal,Renaissance,Ville",
     "Mecanismes": "Collection,Draft,Jet De Dés",
     "Editeurs": "Eggertspiele",
@@ -427,7 +428,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1641141840/300/ax/23635.png"
   },
   {
     "ID": 73844,
@@ -443,7 +444,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Médiéval,Royauté",
     "Mecanismes": "Chance & Hasard,Choix multiples,Collection,Dans Ta Face,Majorité,Placement de cartes,Pouvoir",
     "Editeurs": "Catch Up Games",
@@ -460,7 +461,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1721223601/jpg/cv/73844.jpg"
   },
   {
     "ID": 7225,
@@ -476,7 +477,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Cyclades",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Antiquité,Grèce,Guerre,Les îles,Monstres,Mythologie",
     "Mecanismes": "Conquête,Contrôle de zone,Enchères,Gestion,Jet De Dés,Majorité,Plateau modulaire",
     "Editeurs": "Matagot",
@@ -493,7 +494,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1672267292/300/ah/7225.png"
   },
   {
     "ID": 28270,
@@ -509,7 +510,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Dany",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Abstrait,Onirique",
     "Mecanismes": "Bluff,Déduction,Rôle",
     "Editeurs": "Grrre Games",
@@ -526,7 +527,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1611701745/300/bc/28270.png"
   },
   {
     "ID": 1385,
@@ -542,7 +543,7 @@
     "Langues": "français,anglais",
     "Univers": "",
     "Gammes": "Dead Of Winter",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Horreur,Post-apocalyptique,Survie,Zombies",
     "Mecanismes": "Bluff,Coopération,Diplomatie,Narration,Objectif secret,Points d'action,Rôle secret,Semi-coopération,Trahison",
     "Editeurs": "Filosofia,Plaid Hat Games",
@@ -559,7 +560,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1714634441/300/ab/1385.png"
   },
   {
     "ID": 28994,
@@ -575,7 +576,7 @@
     "Langues": "français,anglais",
     "Univers": "",
     "Gammes": "Dig your way out",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Évasion,Gangs,Mafia,Prison",
     "Mecanismes": "Déduction,Jet De Dés,Points d'action",
     "Editeurs": "Borderline",
@@ -592,7 +593,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1682539151/300/bc/28994.png"
   },
   {
     "ID": 259,
@@ -608,7 +609,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Docteur Pilule",
-    "Catégories": "Jeu d'Ambiance,Jeu de plateau",
+    "Categories": "Jeu d'Ambiance,Jeu de plateau",
     "Themes": "Sciences",
     "Mecanismes": "Affrontement Direct,Déduction,Équipe,Gestion de main",
     "Editeurs": "Fantastic Lombric",
@@ -625,7 +626,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1675687428/300/aa/259.png"
   },
   {
     "ID": 37573,
@@ -641,7 +642,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Dual Powers",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Guerre,Historique,Politique,Russie",
     "Mecanismes": "Conquête,Déduction,Gestion de main",
     "Editeurs": "Don't Panic Games",
@@ -658,7 +659,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1681847693/300/bl/37573.png"
   },
   {
     "ID": 21314,
@@ -674,7 +675,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Exit",
-    "Catégories": "Escape Game",
+    "Categories": "Escape Game",
     "Themes": "Enquêtes & Mystères,Nature",
     "Mecanismes": "Altération de Matériel,Coopération,Déduction,Défis,Énigme,Logique,Observation,Réflexion",
     "Editeurs": "Iello,Kosmos",
@@ -691,7 +692,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1709809364/300/av/21314.png"
   },
   {
     "ID": 72786,
@@ -707,7 +708,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Flowers",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Chiffres,Couleurs,Végétaux",
     "Mecanismes": "Combinaison,Connexion,Placement de cartes,Stratégie",
     "Editeurs": "Actarus Editions",
@@ -724,7 +725,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1721972405/jpg/cu/72786.jpg"
   },
   {
     "ID": 10757,
@@ -740,7 +741,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Guillotine",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "France,Historique,Humour,Révolution Française",
     "Mecanismes": "Collection,Gestion de main,Placement de cartes,Pouvoir",
     "Editeurs": "Play Factory",
@@ -757,7 +758,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1714974273/jpg/ak/10757.jpg"
   },
   {
     "ID": 19595,
@@ -773,7 +774,7 @@
     "Langues": "français,anglais,allemand,japonais",
     "Univers": "Imaginarium",
     "Gammes": "Imaginarium",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Fantastique,Industrie,Onirique,Steam Punk",
     "Mecanismes": "Combinaison,Course,Gestion",
     "Editeurs": "Bombyx",
@@ -790,7 +791,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1705525647/300/at/19595.png"
   },
   {
     "ID": 7470,
@@ -806,7 +807,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Jaipur",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Animaux,Chameau,Commerce,Inde",
     "Mecanismes": "Combinaison,Défausse,Duo,Gestion de main",
     "Editeurs": "Gameworks",
@@ -823,7 +824,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1695381204/jpg/ah/7470.jpg"
   },
   {
     "ID": 47693,
@@ -839,7 +840,7 @@
     "Langues": "français,anglais,coréen",
     "Univers": "Jekyll & Hyde",
     "Gammes": "Jekyll vs Hyde",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Époque Victorienne,Littérature",
     "Mecanismes": "Affrontement Direct,Asymétrie,Duo,Plis,Pouvoir",
     "Editeurs": "Mandoo Games",
@@ -856,7 +857,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1713348601/jpg/bv/47693.jpg"
   },
   {
     "ID": 575,
@@ -872,7 +873,7 @@
     "Langues": "français",
     "Univers": "King of Tokyo",
     "Gammes": "King of Tokyo",
-    "Catégories": "Jeu de Cartes,Jeu de dés,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de dés,Jeu de plateau",
     "Themes": "Asie,Japon,Monstres,Science-fiction,Tokyo,Ville",
     "Mecanismes": "Affrontement Direct,Chance & Hasard,Combinaison,Élimination,Gestion de main,Jet De Dés,Pouvoir",
     "Editeurs": "Iello",
@@ -889,7 +890,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1710425437/300/aa/575.png"
   },
   {
     "ID": 22916,
@@ -905,7 +906,7 @@
     "Langues": "français,anglais",
     "Univers": "",
     "Gammes": "Kitchen Rush",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Cuisine,Restaurant",
     "Mecanismes": "Choix simultanés,Coopération,Gestion,Placement d'ouvriers,Rapidité,Solo,Temps réel",
     "Editeurs": "Artipia Games,Geek Attitude Games",
@@ -922,7 +923,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1622966443/300/aw/22916.png"
   },
   {
     "ID": 4212,
@@ -938,7 +939,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "La Guerre Des Moutons",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Animaux,Chasse,Loup,Moutons",
     "Mecanismes": "Bluff,Gestion de main,Placement,Pose de tuiles",
     "Editeurs": "Asmodee,Lui-Même",
@@ -955,7 +956,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1682247334/300/ae/4212.png"
   },
   {
     "ID": 15455,
@@ -971,7 +972,7 @@
     "Langues": "français",
     "Univers": "De cafards",
     "Gammes": "Le Poker des Cafards",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Animaux,Araignées,Crapaud,Insectes,Mouche,Rats",
     "Mecanismes": "Bluff,Chance & Hasard,Collection",
     "Editeurs": "Drei Magier Spiele,Gigamic",
@@ -988,7 +989,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1689441398/300/ap/15455.png"
   },
   {
     "ID": 70810,
@@ -1004,7 +1005,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Micro-Game Matagot",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Bande dessinée,Médiéval",
     "Mecanismes": "Placement de cartes,Pouvoir,Stratégie",
     "Editeurs": "Matagot",
@@ -1021,7 +1022,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1712076118/jpg/cs/70810.jpg"
   },
   {
     "ID": 4113,
@@ -1037,7 +1038,7 @@
     "Langues": "français",
     "Univers": "Game of Thrones",
     "Gammes": "Le Trône de Fer JDP",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Fantastique,Guerre,Médiéval",
     "Mecanismes": "Affrontement Direct,Choix simultanés,Conquête,Déduction,Déplacement,Diplomatie,Enchères à poing fermé,Programmation,Trahison",
     "Editeurs": "Edge Entertainment,Fantasy Flight Games",
@@ -1054,7 +1055,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover": ""
+    "Cover": "https://www.myludo.fr/img/jeux/1702304393/300/ae/4113.png"
   },
   {
     "ID": 28768,
@@ -1070,7 +1071,7 @@
     "Langues": "français",
     "Univers": "Game of Thrones",
     "Gammes": "Le Trône de Fer JDP",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Fantastique,Guerre,Médiéval",
     "Mecanismes": "Affrontement Direct,Choix simultanés,Conquête,Déduction,Déplacement,Diplomatie,Enchères à poing fermé,Programmation,Trahison",
     "Editeurs": "Fantasy Flight Games",
@@ -1087,7 +1088,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1702304313/300/bc/28768.png"
   },
   {
     "ID": 4484,
@@ -1103,7 +1104,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Les Aventuriers Du Rail",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Trains,Transport & voyage",
     "Mecanismes": "Collection,Connexion,Objectif secret,Pioche,Placement",
     "Editeurs": "Days Of Wonder",
@@ -1120,7 +1121,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1686407759/300/ae/4484.png"
   },
   {
     "ID": 24737,
@@ -1136,7 +1137,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Les Aventuriers Du Rail",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Amérique,New York,Trains,Transport & voyage,Ville",
     "Mecanismes": "Collection,Connexion,Objectif secret,Pioche,Placement",
     "Editeurs": "Days Of Wonder",
@@ -1153,7 +1154,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1688733486/300/ay/24737.png"
   },
   {
     "ID": 12563,
@@ -1169,7 +1170,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Les Colocs",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Adulte,Humour",
     "Mecanismes": "",
     "Editeurs": "Steve Jackson Games,Ubik",
@@ -1186,7 +1187,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1702838781/300/am/12563.png"
   },
   {
     "ID": 4385,
@@ -1202,7 +1203,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Les Loups-Garous de Thiercelieux",
-    "Catégories": "",
+    "Categories": "",
     "Themes": "Fantastique,Loups-garous,Médiéval,Monstres",
     "Mecanismes": "Déduction,Élimination,Narration,Objectif secret,Rôle secret",
     "Editeurs": "Lui-Même",
@@ -1219,7 +1220,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1589576987/300/ae/4385.png"
   },
   {
     "ID": 1280,
@@ -1235,7 +1236,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Les Poilus",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Guerre,Historique,WW1",
     "Mecanismes": "Chance & Hasard,Combinaison,Coopération,Pioche,Prise de risque",
     "Editeurs": "Edge Entertainment,Sweet Games,Sweet November",
@@ -1252,7 +1253,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1688447732/jpg/ab/1280.jpg"
   },
   {
     "ID": 21956,
@@ -1268,7 +1269,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Les Poilus",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Guerre,Historique,WW1",
     "Mecanismes": "Chance & Hasard,Combinaison,Coopération,Pioche,Prise de risque",
     "Editeurs": "Sweet November",
@@ -1285,7 +1286,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1706112063/300/av/21956.png"
   },
   {
     "ID": 55766,
@@ -1301,7 +1302,7 @@
     "Langues": "français,anglais",
     "Univers": "",
     "Gammes": "Pixel Collection",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Jeu vidéo",
     "Mecanismes": "Argumentation,Solo",
     "Editeurs": "Matagot",
@@ -1318,7 +1319,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1699292846/jpg/cd/55766.jpg"
   },
   {
     "ID": 1108,
@@ -1334,7 +1335,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Mafia de Cuba",
-    "Catégories": "Jeu d'Ambiance",
+    "Categories": "Jeu d'Ambiance",
     "Themes": "Années 50,Enquêtes & Mystères,Espionnage,Mafia,Pierres Précieuses,Voleur",
     "Mecanismes": "Bluff,Déduction,Élimination,Rôle secret",
     "Editeurs": "Lui-Même",
@@ -1351,7 +1352,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1662711950/300/ab/1108.png"
   },
   {
     "ID": 42016,
@@ -1367,7 +1368,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "MicroMacro Crime City",
-    "Catégories": "Jeu d'Observation",
+    "Categories": "Jeu d'Observation",
     "Themes": "Criminalité,Enquêtes & Mystères,Objets,Vie quotidienne,Ville",
     "Mecanismes": "Coopération,Déduction,Observation,Scénario",
     "Editeurs": "Blackrock Games,Spielwiese",
@@ -1384,7 +1385,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1704270112/jpg/bq/42016.jpg"
   },
   {
     "ID": 50055,
@@ -1400,7 +1401,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "MicroMacro Crime City",
-    "Catégories": "Jeu D'Enquête",
+    "Categories": "Jeu D'Enquête",
     "Themes": "Enquêtes & Mystères",
     "Mecanismes": "Campagne,Coopération,Déduction,Équipe,Narration,Scénario,Solo",
     "Editeurs": "Spielwiese",
@@ -1417,7 +1418,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1696055750/jpg/by/50055.jpg"
   },
   {
     "ID": 36636,
@@ -1433,7 +1434,7 @@
     "Langues": "français,anglais",
     "Univers": "",
     "Gammes": "Mini Rogue",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Aventure,Donjon,Exploration,Fantastique",
     "Mecanismes": "Exploration,Jet De Dés,Prise de risque,Rôle,Solo",
     "Editeurs": "Mountain Gold Games,Nuts! Publishing",
@@ -1450,7 +1451,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1710003860/300/bk/36636.png"
   },
   {
     "ID": 52674,
@@ -1466,7 +1467,7 @@
     "Langues": "français,allemand,néerlandais",
     "Univers": "Mr. Jack,Sherlock Holmes",
     "Gammes": "Mr. Jack",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Angleterre,Enquêtes & Mystères,Londres,Ville",
     "Mecanismes": "Asymétrie,Bluff,Capture,Déduction,Duo,Jeu caché,Mouvement de point à point,Objectif secret,Prise de risque",
     "Editeurs": "Hurrican",
@@ -1483,7 +1484,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1671982538/jpg/ca/52674.jpg"
   },
   {
     "ID": 37546,
@@ -1499,7 +1500,7 @@
     "Langues": "français",
     "Univers": "Mysterium",
     "Gammes": "Mysterium Park",
-    "Catégories": "Jeu de Cartes,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de plateau",
     "Themes": "Cirque,Enquêtes & Mystères,Fantastique,Fantômes & Esprits,Loisirs",
     "Mecanismes": "Association,Asymétrie,Coopération,Déduction,Énigme,Narration",
     "Editeurs": "Libellud",
@@ -1516,7 +1517,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1693469769/300/bl/37546.png"
   },
   {
     "ID": 23234,
@@ -1532,7 +1533,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "New Angeles",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "",
     "Mecanismes": "",
     "Editeurs": "Fantasy Flight Games",
@@ -1549,7 +1550,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1715619332/300/ax/23234.png"
   },
   {
     "ID": 16886,
@@ -1565,7 +1566,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Perudo",
-    "Catégories": "Jeu de dés",
+    "Categories": "Jeu de dés",
     "Themes": "Abstrait,Chiffres",
     "Mecanismes": "Bluff,Chance & Hasard,Collection,Élimination,Jet De Dés,Mémorisation",
     "Editeurs": "Asmodee",
@@ -1582,7 +1583,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1709030352/jpg/aq/16886.jpg"
   },
   {
     "ID": 10787,
@@ -1598,7 +1599,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Petits meurtres & faits divers",
-    "Catégories": "Jeu d'Ambiance",
+    "Categories": "Jeu d'Ambiance",
     "Themes": "Contemporain,Enquêtes & Mystères,Humour,Vocabulaire",
     "Mecanismes": "Créativité,Déduction,Improvisation,Mémorisation,Narration,Questions & Réponses",
     "Editeurs": "Asmodee",
@@ -1615,7 +1616,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1662719251/300/ak/10787.png"
   },
   {
     "ID": 9712,
@@ -1631,7 +1632,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Privacy",
-    "Catégories": "Jeu d'Ambiance,Jeu De Connaissances",
+    "Categories": "Jeu d'Ambiance,Jeu De Connaissances",
     "Themes": "Adulte,Humour",
     "Mecanismes": "Guessing,Pari,Questions & Réponses",
     "Editeurs": "Gigamic",
@@ -1648,7 +1649,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1654071029/300/aj/9712.png"
   },
   {
     "ID": 48693,
@@ -1664,7 +1665,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Red Rising",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Dystopie,Littérature,Science-fiction",
     "Mecanismes": "Combinaison,Gestion de main,Pouvoir",
     "Editeurs": "Matagot",
@@ -1681,7 +1682,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1714853896/300/bw/48693.png"
   },
   {
     "ID": 58686,
@@ -1697,7 +1698,7 @@
     "Langues": "anglais",
     "Univers": "",
     "Gammes": "",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Fantastique,Sorcellerie",
     "Mecanismes": "Gestion de main",
     "Editeurs": "Dtda Games",
@@ -1714,7 +1715,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1658868014/jpg/cg/58686.jpg"
   },
   {
     "ID": 10258,
@@ -1730,7 +1731,7 @@
     "Langues": "français",
     "Univers": "De cafards",
     "Gammes": "Salade de Cafards",
-    "Catégories": "Jeu d'Ambiance,Jeu de Cartes",
+    "Categories": "Jeu d'Ambiance,Jeu de Cartes",
     "Themes": "Fruits & légumes",
     "Mecanismes": "Défausse,Rapidité",
     "Editeurs": "Drei Magier Spiele,Gigamic",
@@ -1747,7 +1748,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1622965999/300/ak/10258.png"
   },
   {
     "ID": 561,
@@ -1763,7 +1764,7 @@
     "Langues": "français,anglais,allemand,espagnol,italien",
     "Univers": "",
     "Gammes": "Secret Hitler",
-    "Catégories": "Jeu de Cartes,Print & Play",
+    "Categories": "Jeu de Cartes,Print & Play",
     "Themes": "Historique,Nazis",
     "Mecanismes": "Bluff,Déduction,Rôle secret",
     "Editeurs": "Goat Wolf & Cabbage",
@@ -1780,7 +1781,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1681394877/300/aa/561.png"
   },
   {
     "ID": 42051,
@@ -1796,7 +1797,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Fantastique,Folklore",
     "Mecanismes": "Gestion de main,Rôle secret",
     "Editeurs": "Studio H",
@@ -1813,7 +1814,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1705480140/300/bq/42051.png"
   },
   {
     "ID": 33366,
@@ -1829,7 +1830,7 @@
     "Langues": "anglais",
     "Univers": "",
     "Gammes": "SHASN",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Politique",
     "Mecanismes": "Conquête,Contrôle de zone,Pouvoir,Simulation",
     "Editeurs": "Memesys Culture Lab",
@@ -1846,7 +1847,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1631205918/300/bh/33366.png"
   },
   {
     "ID": 1875,
@@ -1862,7 +1863,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Splendor",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Commerce,Pierres Précieuses,Renaissance",
     "Mecanismes": "Blocage,Combinaison,Commerce,Échange & Troc,Gestion,Récolte",
     "Editeurs": "Space Cowboys",
@@ -1879,7 +1880,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1696153038/jpg/ab/1875.jpg"
   },
   {
     "ID": 6290,
@@ -1895,7 +1896,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Super Comics",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Super-héros",
     "Mecanismes": "Défis",
     "Editeurs": "Le Scorpion Masqué",
@@ -1912,7 +1913,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1696320099/300/ag/6290.png"
   },
   {
     "ID": 29888,
@@ -1928,7 +1929,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Affrontement Direct,Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -1945,7 +1946,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648897/300/bd/29888.png"
   },
   {
     "ID": 32958,
@@ -1961,7 +1962,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -1978,7 +1979,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648224/jpg/bg/32958.jpg"
   },
   {
     "ID": 32957,
@@ -1994,7 +1995,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -2011,7 +2012,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648186/jpg/bg/32957.jpg"
   },
   {
     "ID": 32956,
@@ -2027,7 +2028,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -2044,7 +2045,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648295/jpg/bg/32956.jpg"
   },
   {
     "ID": 48322,
@@ -2060,7 +2061,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -2077,7 +2078,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648393/jpg/bw/48322.jpg"
   },
   {
     "ID": 48323,
@@ -2093,7 +2094,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -2110,7 +2111,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648485/jpg/bw/48323.jpg"
   },
   {
     "ID": 48324,
@@ -2126,7 +2127,7 @@
     "Langues": "français,anglais",
     "Univers": "Fabulosa",
     "Gammes": "Super Fantasy Brawl",
-    "Catégories": "Jeu de figurines",
+    "Categories": "Jeu de figurines",
     "Themes": "Fantasy",
     "Mecanismes": "Déplacement,Gestion de main,Pouvoir,Programmation",
     "Editeurs": "Mythic Games",
@@ -2143,7 +2144,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1678648543/jpg/bw/48324.jpg"
   },
   {
     "ID": 21882,
@@ -2159,7 +2160,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Sushi Go",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Alimentation,Cuisine,Japon",
     "Mecanismes": "Draft,Majorité,Prise de risque",
     "Editeurs": "Cocktail Games,Gamewright",
@@ -2176,7 +2177,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1650642029/300/av/21882.png"
   },
   {
     "ID": 23957,
@@ -2192,7 +2193,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Sushi Go",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Alimentation,Cuisine",
     "Mecanismes": "Choix simultanés,Collection,Draft,Gestion de main",
     "Editeurs": "Cocktail Games,Gamewright,Reflexshop,Uplay.it Edizioni,W. Nostheide Verlag,White Goblin Games,Zoch Zum Spielen",
@@ -2209,7 +2210,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1708513859/300/ax/23957.png"
   },
   {
     "ID": 20872,
@@ -2225,7 +2226,7 @@
     "Langues": "anglais,allemand",
     "Univers": "",
     "Gammes": "Sushi Go",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "",
     "Mecanismes": "Choix simultanés,Collection,Draft,Gestion de main",
     "Editeurs": "Gamewright",
@@ -2242,7 +2243,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1674919240/300/au/20872.png"
   },
   {
     "ID": 34089,
@@ -2258,7 +2259,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "",
-    "Catégories": "Jeu de dés",
+    "Categories": "Jeu de dés",
     "Themes": "Alimentation",
     "Mecanismes": "Jet De Dés",
     "Editeurs": "Cocktail Games",
@@ -2275,7 +2276,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1567074817/300/bi/34089.png"
   },
   {
     "ID": 1088,
@@ -2291,7 +2292,7 @@
     "Langues": "français",
     "Univers": "T.I.M.E Stories",
     "Gammes": "T.I.M.E Stories",
-    "Catégories": "Jeu de plateau",
+    "Categories": "Jeu de plateau",
     "Themes": "Asile,Aventure,Enquêtes & Mystères,Science-fiction,Voyage temporel",
     "Mecanismes": "Chance & Hasard,Coopération,Déplacement,Énigme,Exploration,Rôle",
     "Editeurs": "Space Cowboys",
@@ -2308,7 +2309,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1715892843/300/ab/1088.png"
   },
   {
     "ID": 4642,
@@ -2324,7 +2325,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Taggle",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Humour",
     "Mecanismes": "Narration",
     "Editeurs": "Le Droit De Perdre",
@@ -2341,7 +2342,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1709818066/jpg/ae/4642.jpg"
   },
   {
     "ID": 37535,
@@ -2357,7 +2358,7 @@
     "Langues": "français",
     "Univers": "Alice au pays des merveilles",
     "Gammes": "2 joueurs des Space Cowboys,Tea for 2",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Chiffres,Contes,Littérature,Thé",
     "Mecanismes": "Affrontement Direct,Choix multiples,Deck building,destruction,Duo,Majorité,Points d'action,Pouvoir",
     "Editeurs": "Space Cowboys",
@@ -2374,7 +2375,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1722142580/300/bl/37535.png"
   },
   {
     "ID": 61611,
@@ -2390,7 +2391,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Trio",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Chiffres,Mexique",
     "Mecanismes": "Chance & Hasard,Collection,Mémorisation,Observation",
     "Editeurs": "Cocktail Games",
@@ -2407,7 +2408,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1721376199/jpg/cj/61611.jpg"
   },
   {
     "ID": 21082,
@@ -2423,7 +2424,7 @@
     "Langues": "anglais",
     "Univers": "",
     "Gammes": "Les Tyrans de l'Ombreterre",
-    "Catégories": "Jeu de Cartes,Jeu de figurines,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de figurines,Jeu de plateau",
     "Themes": "Médiéval Fantastique",
     "Mecanismes": "Conquête,Deck building",
     "Editeurs": "Gale Force Nine,Wizards Of The Coast",
@@ -2440,7 +2441,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1620058219/300/av/21082.png"
   },
   {
     "ID": 26973,
@@ -2456,7 +2457,7 @@
     "Langues": "anglais",
     "Univers": "",
     "Gammes": "Les Tyrans de l'Ombreterre",
-    "Catégories": "Jeu de Cartes,Jeu de figurines,Jeu de plateau",
+    "Categories": "Jeu de Cartes,Jeu de figurines,Jeu de plateau",
     "Themes": "Fantastique,Médiéval",
     "Mecanismes": "Conquête,Deck building",
     "Editeurs": "Gale Force Nine,Wizards Of The Coast",
@@ -2473,7 +2474,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1539274336/300/ba/26973.png"
   },
   {
     "ID": 46174,
@@ -2489,7 +2490,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Unmatched",
-    "Catégories": "Jeu de Cartes,Jeu de figurines",
+    "Categories": "Jeu de Cartes,Jeu de figurines",
     "Themes": "Contes,Folklore,Mythologie",
     "Mecanismes": "Affrontement Direct,Asymétrie,Gestion de main,Stratégie",
     "Editeurs": "Iello",
@@ -2506,7 +2507,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1694524697/300/bu/46174.png"
   },
   {
     "ID": 50444,
@@ -2522,7 +2523,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Unmatched",
-    "Catégories": "Jeu de Cartes,Jeu de figurines",
+    "Categories": "Jeu de Cartes,Jeu de figurines",
     "Themes": "Contes,Fantastique,Mythologie",
     "Mecanismes": "Affrontement Direct,Asymétrie,Duo,Gestion de main,Pouvoir,Stratégie",
     "Editeurs": "Iello",
@@ -2539,7 +2540,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1658663954/jpg/by/50444.jpg"
   },
   {
     "ID": 47110,
@@ -2555,7 +2556,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Unmatched",
-    "Catégories": "Jeu de Cartes,Jeu de figurines",
+    "Categories": "Jeu de Cartes,Jeu de figurines",
     "Themes": "Contes,Folklore,Mythologie",
     "Mecanismes": "Affrontement Direct,Asymétrie,Duo,Gestion de main,Pouvoir,Stratégie",
     "Editeurs": "Iello",
@@ -2572,11 +2573,11 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1707426111/300/bv/47110.png"
   },
   {
     "ID": 40114,
-    "Titre": "Vampire La Mascarade – Vendetta",
+    "Titre": "Vampire La Mascarade - Vendetta",
     "Sous-titre": "",
     "Edition": 2021,
     "Type": "basegame",
@@ -2588,7 +2589,7 @@
     "Langues": "français",
     "Univers": "World of Darkness",
     "Gammes": "Vampire La Mascarade,Vampire The Masquerade - Vendetta",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Horreur",
     "Mecanismes": "Bluff,Enchères,Gestion de main,Majorité,Pouvoir",
     "Editeurs": "Horrible Guild,Iello",
@@ -2605,7 +2606,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1690443229/300/bo/40114.png"
   },
   {
     "ID": 32630,
@@ -2621,7 +2622,7 @@
     "Langues": "français",
     "Univers": "Disney",
     "Gammes": "Disney Villainous,Villainous",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Contes,Dessin animé,Fantastique,Médiéval",
     "Mecanismes": "Asymétrie,Combinaison,Gestion de main,Points d'action,Pouvoir",
     "Editeurs": "Ravensburger",
@@ -2638,7 +2639,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1709937600/jpg/bg/32630.jpg"
   },
   {
     "ID": 37067,
@@ -2654,7 +2655,7 @@
     "Langues": "français",
     "Univers": "Disney",
     "Gammes": "Disney Villainous,Villainous",
-    "Catégories": "Jeu de Cartes",
+    "Categories": "Jeu de Cartes",
     "Themes": "Contes,Dessin animé,Fantastique,Médiéval",
     "Mecanismes": "Combinaison,Pouvoir",
     "Editeurs": "Ravensburger",
@@ -2671,7 +2672,7 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1677485955/300/bl/37067.png"
   },
   {
     "ID": 8944,
@@ -2687,7 +2688,7 @@
     "Langues": "français",
     "Univers": "",
     "Gammes": "Wazabi",
-    "Catégories": "Jeu de Cartes,Jeu de dés",
+    "Categories": "Jeu de Cartes,Jeu de dés",
     "Themes": "Abstrait",
     "Mecanismes": "Défausse,Gestion de main,Jet De Dés,Pouvoir",
     "Editeurs": "Gigamic",
@@ -2704,6 +2705,144 @@
     "Reference": "",
     "Referent": "",
     "Derniere-partie": "",
-    "Cover" : ""
+    "Cover": "https://www.myludo.fr/img/jeux/1688478083/300/ai/8944.png"
   }
- ]
+]
+
+// --- PAGINATION --- 
+function renderData(page = 1) {
+
+  const container = document.querySelector('.container');
+  container.innerHTML = '';
+
+  if (!games) {
+    return;
+  }
+
+  const itemsPerPage = 6;
+  let numberPages = Math.ceil(games.length / itemsPerPage);
+
+  const parentPagination = document.querySelector('.pages');
+  parentPagination.innerHTML = '';
+
+  for (let i = 1; i <= numberPages; i++) {
+    const pageButton = document.createElement('button');
+    pageButton.classList.add('pagination');
+    pageButton.id = i
+    pageButton.innerHTML = i;
+    pageButton.addEventListener('click', () => changePage(i)); // Faire evoluer cette fonction pour reussir a faire en sorte que la fonction .active (CSS) fonctionne correctement
+
+    parentPagination.appendChild(pageButton);
+
+  }
+
+  let pageIndex = page - 1;
+
+  for (let i = (pageIndex * itemsPerPage); i < (pageIndex * itemsPerPage) + itemsPerPage; i++) {
+
+    if (!games[i]) { break };
+
+    const list = document.createElement('div');
+    list.classList.add('list');
+
+    const cases = document.createElement('div');
+    cases.classList.add('cases')
+
+    const gameCover = document.createElement('div');
+    gameCover.classList.add('gamecover');
+
+    const gameDesc = document.createElement('div');
+    gameDesc.classList.add('gamedesc');
+
+    const title = document.createElement('h3');
+    title.classList.add('title');
+    title.innerText = games[i].Titre;
+
+    const cover = document.createElement('img');
+    cover.classList.add('cover');
+    cover.src = games[i].Cover;
+
+    const category = document.createElement('p');
+    category.classList.add('cat');
+    category.innerHTML = `<b>Catégorie</b> : ${games[i].Categories.replace(",", ", ")}`;
+
+    const nbPlayer = document.createElement('p');
+    nbPlayer.classList.add('player');
+    nbPlayer.innerHTML = `<b>Joueur.euses</b> : ${typeof games[i].Joueurs === 'string' ? games[i].Joueurs.replace(" — ", " à ") : games[i].Joueurs}`;
+
+    const editor = document.createElement('p');
+    editor.classList.add('editor');
+    editor.innerHTML = `<b>Editeur</b> : ${games[i].Editeurs}`;
+
+    const age = document.createElement('p');
+    age.classList.add('age');
+    age.innerHTML = `<b>Age</b> : ${games[i].Ages}`;
+
+    const duration = document.createElement('p');
+    duration.classList.add('duration')
+    duration.innerHTML = `<b>Durée moyenne</b> : ${typeof games[i].Duree === 'string' ? games[i].Duree.replace(" — ", " à ") + ' min' : games[i].Duree + ' min'}`;
+
+    const lang = document.createElement('p');
+    lang.classList.add('lang');
+    lang.innerHTML = `<b>Langue</b> : ${games[i].Langues}`;
+
+    gameCover.appendChild(cover)
+    list.appendChild(title);
+    list.appendChild(category);
+    list.appendChild(nbPlayer);
+    list.appendChild(age);
+    list.appendChild(duration);
+    list.appendChild(editor);
+    list.appendChild(lang);
+
+    gameDesc.appendChild(list);
+
+    cases.appendChild(gameCover);
+    cases.appendChild(gameDesc);
+    container.appendChild(cases);
+
+  }
+
+  // let activeButton = document.getElementsByClassName('.pagination')
+
+  // activeButton.forEach(button => {
+  //     button.addEventListener('click', () => {
+  //         button.classList.add('active')
+  //     })
+  // })
+
+
+}
+
+function changePage(page) {
+  renderData(page);
+  history.pushState({ page: page }, null, `?page=${page}`);
+
+}
+
+
+let queryString = window.location.search;
+let urlParams = new URLSearchParams(queryString)
+let pageVisible = parseInt(urlParams.get('page')) || 1;
+
+renderData()
+
+// --- RANDOM NAME HOME --- 
+
+// function getRandomImg() {
+//   let randomCover = games[Math.floor(Math.random() * games.length)].Cover;
+
+//     return randomCover
+// }
+
+// // Remplace le contenu de l'attribu SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
+// function displayRandomCover() {
+//     document.getElementById('randomcover').src = getRandomImg()
+//     document.querySelector('.randomname').innerHTML = games[getRandomImg()].Titre
+
+// }
+
+// displayRandomCover()
+
+
+

@@ -2719,7 +2719,7 @@ function renderData(page = 1) {
     return;
   }
 
-  const itemsPerPage = 9;
+  const itemsPerPage = 6;
   let numberPages = Math.ceil(games.length / itemsPerPage);
 
   const parentPagination = document.querySelector('.pages');

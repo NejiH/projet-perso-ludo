@@ -1,0 +1,84 @@
+HTML CSS JSResult Skip Results Iframe EDIT ON body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* body { 
+    min-height: 100vh;
+} */
+
+#card-container {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    /* border: 1px solid pink; */
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cases { 
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    height: 12rem;
+    min-width: 100%;
+        
+        
+}
+
+.gamecover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    border-right: 1px solid lightslategray;
+
+}
+
+.gamecover img {
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+.gamedesc {
+    margin-left: 0.2rem;
+    width: 65%;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-page { 
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    left: 50%;    
+    /* align-items: center; */
+    height: 3rem;
+}
+
+@keyframes load {
+    100% {
+        transform: translateX(100%);
+    }
+}

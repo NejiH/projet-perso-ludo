@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/grid-style-scroll.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,9 +22,9 @@
                 <a href="/html/index.html" alt="logo">Ma Ludo </a>
             </div>
             <ul class="links">
-                <li><a href='#' class="active">Accueil</a></li><span>|</span>
-                <li><a href='/html/collection-scroll.html'>Ma Collection</a></li><span>|</span>
-                <li><a href='/html/wishlist.html'>Ma Wishlist</a>
+                <li><a href='/html/index.html'>Accueil</a></li><span>|</span>
+                <li><a href='#' class="active">Ma Collection</a></li><span>|</span>
+                <li><a href='/html/wishlist.html'>Ma Wishlist</a></li>
             </ul>
             <div class="buttons">
                 <a href="#" class="action-button">Se connecter</a>
@@ -37,10 +38,9 @@
         <!-- Burger Menu pour la partie responsive -->
         <div class="burger-menu">
             <ul class="links">
-                <li><a href='#' class="active">Accueil</a></li>
-                <li><a href='/html/collection-scroll.html'>Ma Collection</a></li>
+                <li><a href='/html/index.html'>Accueil</a></li>
+                <li><a href='#' class="active">Ma Collection</a></li>
                 <li><a href='/html/wishlist.html'>Ma Wishlist</a></li>
-                </li>
             </ul>
             <div class="divider"></div>
             <div class="buttons-burger-menu">
@@ -48,21 +48,17 @@
             </div>
         </div>
     </header>
+<div class="container">
+    <div id="card-container"></div>
+    <div class="bottom-page">
+        <img src="/img/arrow-down.png" alt="" class="arrow-down">
+    </div>
+</div>
 
-    <!-- Affichage image de jeu random -->
+   
 
-    <section class="randomgame">
-        <h2 class="randomname" onclick="displayRandomCover()">Titre du jeu</h2>
-        <div class="divider"></div>
-        <div class="randomimage">
-            <img src="" alt="random game cover" id="randomcover"></a>
-        </div>
-        <button id='imagebtn' onclick="displayRandomHome()" class="randombutton">Un autre jeu</button>
-    </section>
+    <script src="/js/infinite-scroll.js"></script>
     <script src="/js/burgermenu.js"></script>
-    <script src="/js/random-image.js"></script>
-    <!-- <script src="/api/api-xml.js"></script> -->
-
 </body>
 
 </html>
