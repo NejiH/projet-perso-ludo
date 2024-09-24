@@ -3526,7 +3526,7 @@ const addCards = (pageIndex) => {
 // Gestion du défilement infini
 const handleInfiniteScroll = () => {
   throttle(() => {
-  const triggerHeight = window.innerHeight * 0.2; // 20% de la hauteur de la fenêtre
+  const triggerHeight = window.innerHeight * 0.5; // % de la hauteur de la fenêtre
    const endOfPage = window.innerHeight + window.scrollY >= cardContainer.offsetHeight - triggerHeight; // Calcul pour savoir où définir la "fin de la page" avec un - X pour anticiper le chargement et ne pas avoir à attendre lorsqu'on est tout en bas
 
     // Chargement de nouvelles cartes si on est en bas de page (endOfPage) et qu'il reste des pages 
