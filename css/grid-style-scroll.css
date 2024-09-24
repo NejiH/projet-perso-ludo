@@ -49,8 +49,8 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
 }
 
 .gamecover img {
-    max-width: 6rem;
-    max-height: 6rem;
+    max-width: 7rem;
+    max-height: 7rem;
 }
 
 .title {
@@ -90,8 +90,8 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     }
 
         .gamecover img {
-            max-width: 7rem;
-            max-height: 7rem;
+            max-width: 8rem;
+            max-height: 8rem;
         }
     
 }
@@ -99,8 +99,35 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     #card-container {
             grid-template-columns: repeat(1, 1fr);
     }
+
+    .gamedesc {
+            font-size: 16px;
+    
+        }
     
 }
 
+@media screen and (width >= 1280px) {
+    .cases {
+            height: 13rem;
+            min-width: 100%;
+        }
+    
+        .gamecover img {
+            max-width: 10rem;
+            max-height: 10rem;
+        }
+    
+        .title {
+            text-transform: uppercase;
+            color: brown;
+            padding-bottom: 0.4rem;
+        }
+    
+        .gamedesc {
+            font-size: 16px;
+           
+        }
+}
 
 
