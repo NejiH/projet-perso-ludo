@@ -13,7 +13,7 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     align-items: center;
     padding: 2rem;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 0.8rem;
     /* border: 1px solid pink; */
 }
 
@@ -65,7 +65,7 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     padding-left: 1rem;
     padding-right: 0.5rem;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 0.8rem;
     box-sizing: border-box;
     line-height: 1.1rem;
 }
@@ -83,7 +83,7 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
     height: 3rem;
 }
 
-@media  screen and (width <= 1075px) {
+@media  screen and (width <= 67.188em) {
     #card-container {
             grid-template-columns: repeat(2, 1fr);
             
@@ -95,19 +95,23 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
         }
     
 }
-@media  screen and (width <= 768px) {
+@media  screen and (width <= 48em) {
     #card-container {
             grid-template-columns: repeat(1, 1fr);
     }
 
     .gamedesc {
-            font-size: 14px;
+            font-size: 0.8rem;
     
         }
+                .gamecover img {
+                    max-width: 6rem;
+                    max-height: 6rem;
+                }
     
 }
 
-@media screen and (width >= 1280px) {
+@media screen and (width >= 80em) {
     .cases {
             height: 13rem;
             min-width: 100%;
@@ -125,7 +129,7 @@ HTML CSS JSResult Skip Results Iframe EDIT ON body {
         }
     
         .gamedesc {
-            font-size: 16px;
+            font-size: 1rem;
            
         }
 }
