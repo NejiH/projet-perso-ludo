@@ -19,6 +19,13 @@ header {
     position: relative;
     padding: 0 2rem;
     background-color: rgba(0, 0, 0, 0.250);
+    transition: top 0.3s;
+    transition-delay: 0.2s;
+
+}
+
+#header.hidden {
+    top: -80px;
 }
 
 li {

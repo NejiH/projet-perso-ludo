@@ -9,3 +9,5 @@ burgerMenuButton.onclick = function () {
     burgerMenuButtoniCon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
 }
 
+let header = document.querySelector("#header");
+let lastScrollValue = 0;
