@@ -27,11 +27,11 @@ Personnal project under construction while being at Ada Tech School in a fullsta
 
 ### Screenshots
 
-![web homepage](./images/screenshots/web-hommepage.png)
-![web collection & wislist](./images/screenshots/web-collection.png)
-![mobile homepage](./images/screenshots/mobile-homepage.png)
-![mobile collection & wislist](./images/screenshots/mobile-collection.png)
-![mobile burger menu](./images/screenshots/mobile-buger-menu.png)
+![web homepage](./img/screenshots/web-hommepage.png)
+![web collection & wislist](./img/screenshots/web-collection.png)
+![mobile homepage](./img/screenshots/mobile-homepage.png)
+![mobile collection & wislist](./img/screenshots/mobile-collection.png)
+![mobile burger menu](./img/screenshots/mobile-buger-menu.png)
 
 ### Links
 
