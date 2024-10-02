@@ -27,15 +27,24 @@ Personnal project under construction while being at Ada Tech School in a fullsta
 
 ### Screenshots
 
+Web homepage
 ![web homepage](./img/screenshots/web-homepage.png)
+
+Web collection & Wishlist
 ![web collection & wislist](./img/screenshots/web-collection.png)
+
+Mobile homepage
 ![mobile homepage](./img/screenshots/mobile-homepage.png)
+
+Mobile collection & homepage
 ![mobile collection & wislist](./img/screenshots/mobile-collection.png)
+
+Mobile burger menu
 ![mobile burger menu](./img/screenshots/mobile-burger-menu.png)
 
 ### Links
 
-- L'Arnoire à Jeux: [link](https://l-armoire-a-jeux.vercel.app/html/wishlist.html)
+- L'Armoire à Jeux: [link](https://l-armoire-a-jeux.vercel.app/html/wishlist.html)
 - GitHub repo: [repo](https://github.com/NejiH/projet-perso-ludo)
 
 ## My Process
