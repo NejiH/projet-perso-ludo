@@ -81,9 +81,3 @@ Thanks to this project, I was able to consolidate the concepts acquired during m
 ## Author
 
 - [@NejiH](https://www.github.com/NejiH)
-
-## Acknowledgements
-
-- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
