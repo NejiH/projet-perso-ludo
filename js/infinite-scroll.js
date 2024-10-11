@@ -1,9 +1,9 @@
 // Base de données
-fetch("../json/collection.json")
+fetch("./json/collection.json")
   .then(response => response.json())
   .then(data => collectionGames(data, 'collection'));
 
-fetch("../json/wishlist.json")
+fetch("./json/wishlist.json")
   .then(response => response.json())
   .then(data => collectionGames(data, 'wishlist'));
 
