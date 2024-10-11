@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "awale": "^1.0.3"
+    "awale": "^1.0.3",
+    "type" : "module"
   }
 }

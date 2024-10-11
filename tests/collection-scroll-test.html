@@ -11,26 +11,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/grid-style-scroll.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/grid-style-scroll.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>L'Armoire à Jeux</title>
+    <title>COLLECTION - TEST</title>
 </head>
 
 <body>
     <!-- Barre de navigation dans le site -->
-
-    <header>
+    <header id="header">
         <nav class="navbar">
             <div class="logo">
                 <a href="../index.html" alt="logo">L'Armoire à Jeux</a>
             </div>
             <ul class="links">
                 <li><a href='../index.html'>Accueil</a></li><span>|</span>
-                <li><a href='/html/collection-scroll.html'>Ma Collection</a></li><span>|</span>
-                <li><a href='#' class="active">Ma Wishlist</a></li>
+                <li><a href='#' class="active">Ma Collection</a></li><span>|</span>
+                <li><a href='/tests/wishlist-scroll-test.html'>Ma Wishlist</a></li>
             </ul>
             <div class="buttons">
                 <a href="#" class="action-button">Se connecter</a>
@@ -41,12 +40,12 @@
             </div>
         </nav>
 
-        <!-- Burger MEnu pour la partie responsive -->
+        <!-- Burger Menu pour la partie responsive -->
         <div class="burger-menu">
             <ul class="links">
                 <li><a href='../index.html'>Accueil</a></li>
-                <li><a href='/html/collection-scroll.html'>Ma Collection</a></li>
-                <li><a href='#' class="active">Ma Wishlist</a></li>
+                <li><a href='#' class="active">Ma Collection</a></li>
+                <li><a href='/tests/wishlist-scroll-test.html'>Ma Wishlist</a></li>
             </ul>
             <div class="divider"></div>
             <div class="buttons-burger-menu">
@@ -54,14 +53,16 @@
             </div>
         </div>
     </header>
-    <div class="container">
-    <div id="card-container"></div> <!-- Section dans laquelle les éléments sont chargés dynamiquement -->
-        <div class="bottom-page">
-            <img src="/img/arrow-down.png" alt="" class="arrow-down">
-        </div>
+    <!-- Section dans laquelle les éléments sont chargés dynamiquement -->
+<div class="container">
+    <div id="card-container"></div> 
+    <div class="bottom-page">
+        <img src="/img/arrow-down.png" alt="" class="arrow-down">
     </div>
-    <script src="../js/burgermenu.js"></script>
-    <script src="../js/infinite-scroll.js"></script>
+</div>
+
+    <script src="/tests/infinite-scroll-test.js"></script>
+    <script src="/js/burgermenu.js"></script>
 </body>
 
 </html>
