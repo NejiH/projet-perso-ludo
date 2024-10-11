@@ -31,19 +31,14 @@ const collectionGames = (data, type) => {
   // Variables generales pour configurer le système de pagination (quand même nécessaire dans un infinite scroll)
   let currentUrl = window.location.pathname; // récupère l'URL de la page actuelle
   let splittedUrl = currentUrl.split('/').pop(); // Formate le résultat obtenu pour matcher avec la condition 'if' 
-
-  console.log('TYPE :', type);
-  console.log('URL :', splittedUrl);
   
   if (splittedUrl == 'collection-scroll.html' && type == 'collection') {
     gamesData = data[type];
     actualLimit = data.collection.length; 
-    console.log('🔔 :', data.collection.length);
 
   } else if (splittedUrl == 'wishlist.html' && type == 'wishlist') {
     gamesData = data[type];
     actualLimit = data.wishlist.length;
-    console.log('⛳ :', data.wishlist.length);
   } else {
     console.log('Page ou type de données non reconnu');
     return;
