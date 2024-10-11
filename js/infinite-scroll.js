@@ -1,9 +1,9 @@
 // Base de données
-fetch("./json/collection.json")
+fetch("../json/collection.json")
   .then(response => response.json())
   .then(data => collectionGames(data, 'collection'));
 
-fetch("./json/wishlist.json")
+fetch("../json/wishlist.json")
   .then(response => response.json())
   .then(data => collectionGames(data, 'wishlist'));
 
@@ -26,7 +26,7 @@ let pageCount;
 const cardIncrease = 10; // Nombre d'éléments chargés à chaque changement de page
 
 
-const collectionGames = (data, type) => { 
+const collectionGames = (data, type) => {
 
   // Variables generales pour configurer le système de pagination (quand même nécessaire dans un infinite scroll)
   let currentUrl = window.location.pathname; // récupère l'URL de la page actuelle
@@ -34,7 +34,7 @@ const collectionGames = (data, type) => {
   
   if (splittedUrl == 'collection-scroll.html' && type == 'collection') {
     gamesData = data[type];
-    actualLimit = data.collection.length; 
+    actualLimit = data.collection.length;
 
   } else if (splittedUrl == 'wishlist.html' && type == 'wishlist') {
     gamesData = data[type];
@@ -48,6 +48,11 @@ const collectionGames = (data, type) => {
   pageCount = Math.ceil(cardLimit / cardIncrease); // Calcul du nombre total de pages
 
   dataLoaded = true; // Indiquer que les données sont chargées
+
+  // Vérifier si la page est déjà chargée avant d'appeler addCards
+  if (document.readyState === "complete") {
+    addCards(currentPage);
+  }
 }
 
 
