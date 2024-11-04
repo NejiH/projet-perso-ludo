@@ -2710,21 +2710,35 @@ const games = [
   }
 ]
 
+fetch("../json/collection.json")
+  .then(response => response.json())
+  .then(data => collectionGames(data));
+
 // Retourne un numero random et va chercher le jeu correspondant dans le tableau 'games'
-function getRandomGame() {
-  let randomIndex = Math.floor(Math.random() * games.length);
 
-  return games[randomIndex];
-}
 
-// Remplace le contenu de l'attribu SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
-function displayRandomHome() {
-  const randomGame = getRandomGame()
-  const randomCover = document.getElementById('randomcover');
-  const randomTitle = document.querySelector('.randomname');
+function collectionGames(data) { 
 
-  randomCover.src = randomGame.Cover
-  randomTitle.innerText = randomGame.Titre
+  function getRandomGame() {
+  let randomIndex = Math.floor(Math.random() * data.collection.length);
+    console.log('DATA RANDOM INDEX', data.collection[2]);
+    console.log(' RANDOM INDEX', randomIndex);
+    
+
+  return data.collection[randomIndex];
+  }
+  
+  function displayRandomHome() {
+    const randomGame = getRandomGame();
+    const randomCover = document.getElementById('randomcover');
+    const randomTitle = document.querySelector('.randomname');
+
+    // Remplace le contenu de l'attribu SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
+    randomCover.src = randomGame.Cover;
+    randomTitle.innerText = randomGame.Titre;
 }
 
 displayRandomHome()
+
+} 
+
