@@ -17,12 +17,12 @@ function collectionGames(data) {
   return data.collection[randomIndex];
   }
   
-  function displayRandomHome() {
+  const displayRandomHome =  () => {
     const randomGame = getRandomGame();
     const randomCover = document.getElementById('randomcover');
     const randomTitle = document.getElementById('randomname');
 
-    // Remplace le contenu de l'attribu SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
+    // Remplace le contenu de l'attribut SRC dans la balise contenant l'ID "randomcover" en utilisant l'URL tirée au hasard dans le tableau coverImg
     randomCover.src = randomGame.Cover;
     randomTitle.innerText = randomGame.Titre;
 }
