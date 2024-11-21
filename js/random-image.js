@@ -1,6 +1,6 @@
 // --- RANDOM GAME ON HOMEPAGE --- 
 // Base de données
-const games = [
+/*const games = [
   {
     "ID": 3809,
     "Titre": "6 qui prend !",
@@ -2709,6 +2709,9 @@ const games = [
     "Cover": "https://www.myludo.fr/img/jeux/1688478083/300/ai/8944.png"
   }
 ]
+  */
+
+const btnRandom = document.getElementById('imagebtn');
 
 fetch("../json/collection.json")
   .then(response => response.json())
@@ -2741,4 +2744,10 @@ function collectionGames(data) {
 displayRandomHome()
 
 } 
+
+btnRandom.addEventListener("click", (data) => {
+    console.log("Le bouton a été cliqué !");
+    collectionGames(data)
+  // Exécutez une action ici, par exemple afficher un message dans la console
+});
 
