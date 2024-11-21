@@ -16,7 +16,7 @@ const bottomPageElem = document.querySelector(".arrow-down");
 
 // Initialisation des variables globales 
 let actualLimit; 
-let cardlimit;
+let cardLimit;
 let gamesData;
 let dataLoaded = false;
 let currentPage = 1; 
