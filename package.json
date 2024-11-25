@@ -1,6 +1,20 @@
 {
+  "name": "projet-perso-ludo",
+  "version": "1.0.0",
+  "description": "Personnal project under construction while being at Ada Tech School in a fullstack dev cursus.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.5",
     "awale": "^1.0.3",
-    "type" : "module"
+    "vitest": "^2.1.5"
+
   }
 }

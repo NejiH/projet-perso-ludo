@@ -14,7 +14,6 @@ const cardCountElem = document.querySelector("#card-count");
 const cardTotalElem = document.querySelector("#card-total");
 const bottomPageElem = document.querySelector(".arrow-down");
 
-// Initialisation des variables globales 
 let actualLimit; 
 let cardLimit;
 let gamesData;
@@ -23,7 +22,7 @@ let currentPage = 1;
 let lastScrollTop = 0;
 let throttleTimer;
 let pageCount;
-const cardIncrease = 10; // Nombre d'éléments chargés à chaque changement de page
+const cardIncrease = 10;
 
 
 const collectionGames = (data, type) => {
@@ -44,10 +43,10 @@ const collectionGames = (data, type) => {
     return;
   }
 
-  cardLimit = actualLimit; // Nombre de jeux basé sur le nombre d'index dans les tableaux d'objets 'collection' et 'whishlist' 
-  pageCount = Math.ceil(cardLimit / cardIncrease); // Calcul du nombre total de pages
+  cardLimit = actualLimit;
+  pageCount = Math.ceil(cardLimit / cardIncrease);
 
-  dataLoaded = true; // Indiquer que les données sont chargées
+  dataLoaded = true;
 
   // Vérifier si la page est déjà chargée avant d'appeler addCards
   if (document.readyState === "complete") {
