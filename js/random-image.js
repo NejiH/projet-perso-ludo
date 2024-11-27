@@ -9,7 +9,7 @@ fetch("../json/collection.json")
 
 // Retourne un numero random et va chercher le jeu correspondant dans le tableau 'games'
 
-export function collectionGames(data) { 
+function collectionGames(data) { 
 
   function getRandomGame() {
   let randomIndex = Math.floor(Math.random() * data.collection.length);
