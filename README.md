@@ -1,7 +1,8 @@
 # L'ARMOIRE À JEUX
 
 Personnal project under construction while being at Ada Tech School in a fullstack dev cursus.
-Check it live here : [link]([https://l-armoire-a-jeux.vercel.app/html/wishlist.html](https://l-armoire-a-jeux.vercel.app/))
+
+Check it live here : [L'Armoire À Jeux]([https://l-armoire-a-jeux.vercel.app/html/wishlist.html](https://l-armoire-a-jeux.vercel.app/))
 
 ## Table of contents
 
