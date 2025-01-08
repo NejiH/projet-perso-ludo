@@ -15,7 +15,6 @@ Check it live here : [L'Armoire À Jeux]([https://l-armoire-a-jeux.vercel.app/ht
   - [What I learned](#what-i-learned)
   - [Next steps](#next-steps)
 - [Author](#author)
-- [Acknowledgements](#Acknowledgements)
 
 ## Overview
 
